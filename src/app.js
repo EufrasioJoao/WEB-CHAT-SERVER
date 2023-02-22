@@ -23,7 +23,7 @@ const server = http.createServer(app);
 const io = new Server(server, {
     /* instantiating new server with socket.io */
     cors: {
-        origin: ["*"],
+        origin: ["https://o-chat.netlify.app"],
         methods: ["POST", "GET"],
     },
 });
