@@ -2,6 +2,7 @@ const moment = require("moment");
 
 // formats messages
 function formatMessage(author, authorImage,message) {
+
     return {
         author,
         message,
